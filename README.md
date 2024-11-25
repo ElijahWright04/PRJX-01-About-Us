@@ -53,49 +53,40 @@
         </div>
     </div>
 
-    <!-- Meet the Team Section -->
-    <h2 class="section-title text-center">Meet the Team</h2>
-    <div class="row text-center">
-        <div class="col-md-4">
-            <div class="team-member">
-                <img src="https://via.placeholder.com/150" alt="John Doe">
-                <h4>John Doe</h4>
-                <p>Lead Guide & Founder</p>
-                <p>John has over 15 years of experience in outdoor guiding, specializing in rock climbing and wilderness survival. His passion for the outdoors is contagious, and he’s committed to creating unforgettable experiences for every adventurer.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="team-member">
-                <img src="https://via.placeholder.com/150" alt="Jane Smith">
-                <h4>Jane Smith</h4>
-                <p>Navigation Expert</p>
-                <p>Jane is an expert in land navigation and orienteering. With a keen sense of direction and a love for teaching others, she helps clients build the skills necessary to confidently navigate through the wilderness.</p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="team-member">
-                <img src="https://via.placeholder.com/150" alt="Mike Johnson">
-                <h4>Mike Johnson</h4>
-                <p>Climbing Instructor</p>
-                <p>Mike is a certified climbing instructor with a deep love for the vertical world. His goal is to inspire climbers to push their limits while ensuring safety and enjoyment on every climb.</p>
-            </div>
+   <!-- Meet the Team Section -->
+<h2 class="section-title text-center my-5">Meet the Team</h2>
+<div class="row text-center">
+    <div class="col-md-4 mb-4">
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="John Doe" class="img-fluid rounded-circle">
+            <h4>John Doe</h4>
+            <p>Lead Guide & Founder</p>
+            <p>John has over 15 years of experience in outdoor guiding, specializing in rock climbing and wilderness survival. His passion for the outdoors is contagious, and he’s committed to creating unforgettable experiences for every adventurer.</p>
         </div>
     </div>
-
-    <!-- Contact Section -->
-    <h2 class="section-title text-center">Contact Us</h2>
-    <p class="text-center">Are you ready to embark on your next adventure? Get in touch with us and let’s make it happen!</p>
-    <div class="text-center">
-        <p><strong>Address:</strong> Suite 214B, 1815 Moore Street, Huntingdon, PA 16652</p>
-        <p><strong>Email:</strong> <a href="mailto:info@caffeinatedclimbing.com">info@caffeinatedclimbing.com</a></p>
-        <p><strong>Phone:</strong> (814) 555-1234</p>
+    <div class="col-md-4 mb-4">
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Jane Smith" class="img-fluid rounded-circle">
+            <h4>Jane Smith</h4>
+            <p>Navigation Expert</p>
+            <p>Jane is an expert in land navigation and orienteering. With a keen sense of direction and a love for teaching others, she helps clients build the skills necessary to confidently navigate through the wilderness.</p>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Mike Johnson" class="img-fluid rounded-circle">
+            <h4>Mike Johnson</h4>
+            <p>Climbing Instructor</p>
+            <p>Mike is a certified climbing instructor with a deep love for the vertical world. His goal is to inspire climbers to push their limits while ensuring safety and enjoyment on every climb.</p>
+        </div>
     </div>
 </div>
 
-<!-- Bootstrap 4 JS and Dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body>
-</html>
+<!-- Contact Section -->
+<h2 class="section-title text-center my-5">Contact Us</h2>
+<p class="text-center">Are you ready to embark on your next adventure? Get in touch with us and let’s make it happen!</p>
+<div class="text-center">
+    <p><strong>Address:</strong> Suite 214B, 1815 Moore Street, Huntingdon, PA 16652</p>
+    <p><strong>Email:</strong> <a href="mailto:info@caffeinatedclimbing.com">info@caffeinatedclimbing.com</a></p>
+    <p><strong>Phone:</strong> (814) 555-1234</p>
+</div>
