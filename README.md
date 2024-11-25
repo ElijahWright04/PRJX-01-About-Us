@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us | Caffeinated Climbing</title>
-    <!-- Bootstrap CSS -->
+
+    <!-- Bootstrap 4 CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
         /* Custom Styles */
         .hero-section {
@@ -29,49 +31,68 @@
             font-style: italic;
             color: #555;
         }
+        .section-title {
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
 
+<!-- Hero Section -->
 <div class="hero-section text-center">
     <h1>Caffeinated Climbing</h1>
-    <p>Your Adventure Guide Service in Huntingdon, PA</p>
+    <p>Your Adventure Guide Service</p>
 </div>
 
+<!-- About Us Section -->
 <div class="container my-5">
-    <h2 class="text-center">Our Story</h2>
-    <p>Caffeinated Climbing was founded with the belief that the great outdoors offers everyone the chance to grow and challenge themselves. We are a passionate team of certified guides specializing in backpacking, climbing, and land navigation. We offer a safe and supportive environment for adventure seekers to push their limits.</p>
-
-    <h2 class="text-center my-5">Meet the Team</h2>
     <div class="row">
-        <div class="col-md-4 text-center team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member">
-            <h4>John Doe</h4>
-            <p>Lead Guide and Founder</p>
-            <p>John is an experienced climber and backpacker with over 15 years in the field. He founded Caffeinated Climbing to inspire others to connect with nature.</p>
-        </div>
-        <div class="col-md-4 text-center team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member">
-            <h4>Jane Smith</h4>
-            <p>Navigation Expert</p>
-            <p>Jane is a certified orienteering instructor who helps clients develop the skills needed to confidently navigate the wilderness.</p>
-        </div>
-        <div class="col-md-4 text-center team-member">
-            <img src="https://via.placeholder.com/150" alt="Team Member">
-            <h4>Mike Johnson</h4>
-            <p>Climbing Instructor</p>
-            <p>Mike's love for rock climbing has taken him to various mountain ranges. He ensures every climber has a rewarding and safe experience.</p>
+        <div class="col-12">
+            <h2 class="section-title text-center">Our Story</h2>
+            <p class="lead text-center">Caffeinated Climbing is more than just an adventure guide service. We're a group of passionate outdoor enthusiasts who believe that everyone deserves to experience the wilderness and push their limits. Our guides specialize in backpacking, climbing, and land navigation, ensuring that every journey is safe, exciting, and empowering.</p>
         </div>
     </div>
 
-    <h2 class="text-center my-5">Contact Us</h2>
-    <p>If you're ready to start your next adventure, don't hesitate to reach out to us. We’re here to help plan and guide your journey!</p>
-    <p><strong>Address:</strong> Suite 214B, 1815 Moore Street, Huntingdon, PA 16652</p>
-    <p><strong>Email:</strong> info@caffeinatedclimbing.com</p>
-    <p><strong>Phone:</strong> (814) 555-1234</p>
+    <!-- Meet the Team Section -->
+    <h2 class="section-title text-center">Meet the Team</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Lead Guide & Founder</p>
+                <p>John has over 15 years of experience in outdoor guiding, specializing in rock climbing and wilderness survival. His passion for the outdoors is contagious, and he’s committed to creating unforgettable experiences for every adventurer.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Jane Smith">
+                <h4>Jane Smith</h4>
+                <p>Navigation Expert</p>
+                <p>Jane is an expert in land navigation and orienteering. With a keen sense of direction and a love for teaching others, she helps clients build the skills necessary to confidently navigate through the wilderness.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Mike Johnson">
+                <h4>Mike Johnson</h4>
+                <p>Climbing Instructor</p>
+                <p>Mike is a certified climbing instructor with a deep love for the vertical world. His goal is to inspire climbers to push their limits while ensuring safety and enjoyment on every climb.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <h2 class="section-title text-center">Contact Us</h2>
+    <p class="text-center">Are you ready to embark on your next adventure? Get in touch with us and let’s make it happen!</p>
+    <div class="text-center">
+        <p><strong>Address:</strong> Suite 214B, 1815 Moore Street, Huntingdon, PA 16652</p>
+        <p><strong>Email:</strong> <a href="mailto:info@caffeinatedclimbing.com">info@caffeinatedclimbing.com</a></p>
+        <p><strong>Phone:</strong> (814) 555-1234</p>
+    </div>
 </div>
 
-<!-- Bootstrap JS and Dependencies -->
+<!-- Bootstrap 4 JS and Dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
